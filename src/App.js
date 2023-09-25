@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import Index from './Pages/Index';
 import './App.css';
+import { styled } from 'styled-components';
+
+const Wrapper = styled.div`
+ background-color: #141414;
+  color: #ddd;
+  /* overflow-x: hidden; */
+  height: fit-content;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 0px;
+  font-family: 'Open Sans', sans-serif;
+`
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Wrapper>
+      <Index/>
+    </Wrapper>
   );
 }
 
