@@ -2,6 +2,7 @@ import CorpersTrade from '../Assets/corperstrade.png'
 import Constructionez from '../Assets/snip.png'
 import Ecommerce from '../Assets/Screenshot2.png'
 import Klasshour from '../Assets/Screenshot.png'
+import Rackleblock from '../Assets/rackleblock.png'
 
 
 export const ProjectDetails = [
@@ -9,44 +10,55 @@ export const ProjectDetails = [
         id: 1,
         img: Klasshour,
         title: 'Klasshour',
-        content: 'EduTech',
-        techs: ['React ','TypeScript ', 'Styled Components ', 'Tailwind CSS ', 'NextJS']
+        content: 'This EduTech platform, which combines empowerment with education, transforms learning by giving students the power of choice. It offer a dynamic environment where students choose tutors who specialise in helping them navigate difficult courses and subjects.',
+        link: 'https://www.klasshour.com',
+        techs: ['ReactJs ','TypeScript ', 'Styled Components ', 'Tailwind CSS ', 'NextJS'],
+        gitLink: '/'
     },
     {
         id: 2,
-        img: CorpersTrade,
+        img: Rackleblock,
         title: 'Rackleblock',
-        content: 'FinTech',
-        techs: ['React ','TypeScript ', 'Styled Components ', 'Tailwind CSS ', 'NextJS']
+        content: 'A FinTech platform that redefines currency exchange by giving consumers unmatched financial flexibility and putting control firmly in their hands. The technology offers a dynamic and personalised approach to currency transactions by enabling individuals to precisely define the quantities they intend to exchange, so breaking free from traditional limits.',
+        link: 'https://www.rackleblock.com/',
+        techs: ['ReactJs ', 'Styled Components', 'Axios', 'Postman'],
+        gitLink: '#'
     },
-    {
-        id: 3,
-        img: Ecommerce,
-        title: 'Prime tasker',
-        content: 'Tasks website',
-        techs: ['React ','TypeScript ', 'Styled Components ', 'Tailwind CSS ', 'NextJS']
-    },
+    // {
+    //     id: 3,
+    //     img: Ecommerce,
+    //     title: 'Prime tasker',
+    //     content: 'Tasks website',
+    //link: '/',
+    //     techs: ['React ','TypeScript ', 'Styled Components ', 'Tailwind CSS ', 'NextJS']
+    // },
     {
         id: 4,
         img: Constructionez,
         title: 'Constructionez',
-        content: 'Construction company website',
-        techs: ['React ','TypeScript ', 'Styled Components ', 'Tailwind CSS ', 'NextJS']
+        content: 'Constructionez is a dynamic online platform meticulously crafted for a construction company. Serving as a digital showcase, the website elegantly presents the extensive portfolio of projects,  vision and mission, and offers insightful information about the company.' ,
+        link: 'https://constructionez.netlify.app/',
+        techs: ['ReactJS ', 'Styled Components ' ],
+        gitLink: 'https://github.com/Tiana-droid/Constructionez'
     },
     {
         id: 5,
         img: CorpersTrade,
         title: 'Corpers Trade',
-        content: 'An apartment website',
-        techs: ['React ','TypeScript ', 'Styled Components ', 'Tailwind CSS ', 'NextJS']
+        content: ' A website that offer users the convenience and flexibility to explore a myriad of apartments for rent. Seamlessly designed and intuitively navigable, the platform transforms the apartment hunting journey into a personalized quest.',
+        link: 'https://tiana-droid.github.io/',
+        techs: ['HTML ','CSS', 'JavaScript'],
+        gitLink: 'https://github.com/Tiana-droid/Tiana-droid.github.io'
 
     },
     {
         id: 6,
         img: Ecommerce,
         title: 'Ecomerce-site',
-        content: 'ecommerce site',
-        techs: ['React ','TypeScript ', 'Styled Components ', 'Tailwind CSS ', 'NextJS']
+        content: 'A digital marketplace for a personalized and elevated retail experience with curated collection of products spanning fashion, technology, home essentials, and beyond.',
+        link: 'https://dummyjson.netlify.app/',
+        techs: ['HTML ','CSS ', 'JavaScript ', 'FetchAPI '],
+        gitLink: 'https://github.com/Tiana-droid/DummyJson'
     },
     
 

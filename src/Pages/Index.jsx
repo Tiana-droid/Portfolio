@@ -1,15 +1,18 @@
-import React from 'react'
-import { Hero, Navbar, Projects } from '../Components'
-import { Container } from '../Components/style'
+import React from "react";
+import { Hero, Navbar, Projects, About, Footer, Works } from "../Components";
+import { Container } from "../Components/style";
 
 const Index = () => {
   return (
     <Container>
-    <Navbar/>
-    <Hero/>
-    <Projects/>
+      <Navbar />
+      <Hero />
+      <About />
+      <Works/>
+      <Projects />
+      <Footer/>
     </Container>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;
