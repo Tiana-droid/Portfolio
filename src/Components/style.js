@@ -3,14 +3,18 @@ import { BreakPoints } from "../utils/Breakpoint";
 import Me from "../Assets/snip2.png";
 
 export const Container = styled.div`
-  width: 100%;
+  width: 90%;
   margin: auto;
   overflow: hidden;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
 `;
 export const BodyWrap = styled.div`
   width: 90%;
   margin: 0 auto 30px auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 
   #footer {
     margin-top: 13em;
@@ -75,7 +79,7 @@ export const Grid = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     display: block;
   }
 `;
@@ -96,7 +100,7 @@ export const BarWrapper = styled.div`
       @media (${BreakPoints.medium}) {
         display: flex;
         align-items: center;
-        gap: 2rem;
+        gap: 1.5rem;
 
         ol {
           width: 350px;
@@ -193,7 +197,7 @@ export const HeroSection = styled.div`
   padding: ${({padding}) => (padding ? padding : '100px 0px')};
 
   @media (max-width: 799px) {
-    padding: 50px 0px !important;
+    padding: 50px 0px 0px 0px !important;
   };
 
 
@@ -440,7 +444,7 @@ export const Content = styled.div`
   }
 
   &:not(:last-of-type) {
-    margin-bottom: 9em;
+    margin-bottom: 12em;
 
     @media (max-width: 850px) {
       margin-bottom: 5em;

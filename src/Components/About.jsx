@@ -50,8 +50,7 @@ const About = () => {
                 interest and passion web development
               </motion.p>
               <motion.p variants={textVariants}>
-                Fast-forward to today, and I’ve had the privilege of working at
-                an a FinTech company as an intern, an EduTech company and built
+                Fast-forward to today, and I’ve had the privilege of working at a FinTech company as an intern, an EduTech company and built
                 some personal projects. My main focus these days is building
                 accessible, inclusive products and digital experiences a
                 reputable company for a variety of clients.

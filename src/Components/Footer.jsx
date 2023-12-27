@@ -1,5 +1,6 @@
 import React from "react";
 import { BodyWrap, HeroSection, Flex } from "./style";
+import Handle from "./Handle";
 import { motion } from "framer-motion";
 
 const textVariants = {
@@ -11,7 +12,7 @@ const textVariants = {
     y: 0,
     opacity: 1,
     transition: {
-      duration: .6,
+      duration: 0.6,
       staggerChildren: 0.1,
     },
   },
@@ -38,7 +39,7 @@ const Footer = () => {
             >
               Get in touch
             </motion.h1>
-            <motion.p variants={textVariants} style={{textAlign: 'center'}}>
+            <motion.p variants={textVariants} style={{ textAlign: "center" }}>
               Looking for new opportunities, experience, exposure <br />{" "}
               Interewsted in participating in mind blowing apps and sites.
             </motion.p>
@@ -57,6 +58,7 @@ const Footer = () => {
           </Flex>
         </HeroSection>
       </motion.div>
+      <Handle />
     </BodyWrap>
   );
 };

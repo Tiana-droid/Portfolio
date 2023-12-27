@@ -4,14 +4,16 @@ import { Container } from "../Components/style";
 
 const Index = () => {
   return (
-    <Container>
+    <>
       <Navbar />
+    <Container>
       <Hero />
       <About />
       <Works/>
       <Projects />
       <Footer/>
     </Container>
+    </>
   );
 };
 
