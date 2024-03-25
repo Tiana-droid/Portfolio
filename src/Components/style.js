@@ -79,7 +79,7 @@ export const Grid = styled.div`
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 860px) {
     display: block;
   }
 `;
@@ -484,20 +484,17 @@ margin-bottom: 3em;
 
 export const TabSection = styled.section`
   width: 100%;
-  /* overflow: hidden; */
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  /* flex-wrap: wrap; */
   gap: 2rem;
   justify-items: start;
 
  
   @media (${BreakPoints.small}) {
-    /* width: 70%; */
     flex-direction: row;
   }
-  @media (min-width: 850px) {
+  @media (min-width: 861px) {
     width: 70%;
     flex-direction: row;
   }
@@ -568,7 +565,6 @@ export const TabSection = styled.section`
     display: flex;
     align-items: baseline;
     gap: 10px;
-    /* list-style-position: outside; */
 
     &::before {
       content: "▹";

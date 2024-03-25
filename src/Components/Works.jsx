@@ -84,9 +84,23 @@ const TabPanels = [
       "Use Postman for testing the API endpoints independently of the frontend, ensuring they respond as expected.",
     ],
   },
-
   {
     tab: "tabC",
+    title: "SojiTade Foundation",
+    link: "https://www.sojitadefoundation.com",
+    role: "Website Developer",
+    duration: "December 2023",
+    tasks: [
+      "Developed the user interface using React.js, ensuring a responsive design and smooth navigation.",
+       "Established communication between the frontend and the backend API to send user data.",
+      "Implemented HTTP requests to interact with the API endpoints.",
+      "Developed components to dynamically display product details, images, and prices obtained from the API.",
+      "Created intuitive user interface for managing news content.",
+     " Improved the efficiency of news and events management within the organization.",
+    ],
+  },
+  {
+    tab: "tabD",
     title: "DummyJson",
     link: "https://dummyjson.netlify.app/",
     role: "Frontend Developer",
@@ -98,20 +112,6 @@ const TabPanels = [
       "Ensured that the e-commerce site is responsive, providing a consistent experience across various devices and screen sizes.",
     ],
   },
-
-  // {
-  //   tab: "tabD",
-  //   title: 'Corpers Trade',
-  //   link: 'https://tiana-droid.github.io/',
-  //   role: "Web Designer",
-  //   duration: "July 2022",
-  //   tasks: [
-  //     "Implemented UI/UX designs to ensure seamless integration and consistent design implementation.",
-  //     "Developed the tutor's dashboard",
-  //     "Developed the settings page",
-  //     "Developed the responsive design for both the tablet and mobile phones for all pages",
-  //   ],
-  // },
   {
     tab: "tabE",
     title: "Constructionez",
@@ -156,7 +156,7 @@ const Works = () => {
         <HeroSection>
           <motion.h1 variants={textVariants}>My Roles so far</motion.h1>
 
-          <TabSection className="tabSection">
+          <TabSection>
             <motion.section
               initial="initial"
               variants={imageVariants}

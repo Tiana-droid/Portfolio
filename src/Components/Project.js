@@ -3,9 +3,26 @@ import Constructionez from '../Assets/snip.png'
 import Ecommerce from '../Assets/Screenshot2.png'
 import Klasshour from '../Assets/Screenshot.png'
 import Rackleblock from '../Assets/rackleblock.png'
+import SojiTade from '../Assets/sojitade.png'
 
 
 export const ProjectDetails = [
+    {
+        img: SojiTade,
+        title: 'SojiTade Foundation',
+        content: 'The foundation strives to put an end to extreme poverty and acute illiteracy in Nigeria. To establish a dynamic and impactful foundation dedicated to uplifting communities through innovative initiatives and sustainable development projects. With a focus on education, healthcare, and social welfare, the foundation aims to create lasting positive change and empower individuals to thrive.',
+        link: 'https://www.sojitadefoundation.com',
+        techs: ['ReactJs ', 'Styled Components ', 'REST API ', 'NextJS'],
+        gitLink: '/'
+    },
+    {
+        img: Klasshour,
+        title: 'Klasshour',
+        content: 'This EduTech platform, which combines empowerment with education, transforms learning by giving students the power of choice. It offer a dynamic environment where students choose tutors who specialise in helping them navigate difficult courses and subjects.',
+        link: 'https://www.klasshour.com',
+        techs: ['ReactJs ','TypeScript ', 'Styled Components ', 'Tailwind CSS ', 'NextJS'],
+        gitLink: '/'
+    },
     {
         img: Rackleblock,
         title: 'Rackleblock',
@@ -46,14 +63,7 @@ export const ProjectDetails = [
         techs: ['HTML ','CSS ', 'JavaScript ', 'FetchAPI '],
         gitLink: 'https://github.com/Tiana-droid/DummyJson'
     },
-    {
-        img: Klasshour,
-        title: 'Klasshour',
-        content: 'This EduTech platform, which combines empowerment with education, transforms learning by giving students the power of choice. It offer a dynamic environment where students choose tutors who specialise in helping them navigate difficult courses and subjects.',
-        link: 'https://www.klasshour.com',
-        techs: ['ReactJs ','TypeScript ', 'Styled Components ', 'Tailwind CSS ', 'NextJS'],
-        gitLink: '/'
-    },
+   
     
 
 ]
