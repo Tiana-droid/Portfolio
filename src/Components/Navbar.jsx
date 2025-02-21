@@ -112,7 +112,7 @@ const Navbar = () => {
                 <motion.a
                   className="resume-button"
                   target="blank"
-                  href="http://bit.ly/christy_resume"
+                  href="https://bit.ly/christianah_cv"
                   initial={{opacity: 0}}
             animate={{opacity: 1}}
             transition={{duration: 1, delay: 1}}

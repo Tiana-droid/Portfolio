@@ -1,12 +1,21 @@
-import CorpersTrade from '../Assets/corperstrade.png'
+// import CorpersTrade from '../Assets/corperstrade.png'
 import Constructionez from '../Assets/snip.png'
 import Ecommerce from '../Assets/Screenshot2.png'
 import Klasshour from '../Assets/Screenshot.png'
 import Rackleblock from '../Assets/rackleblock.png'
 import SojiTade from '../Assets/sojitade.png'
+import BlogApp from '../Assets/screen snip - blog app.png'
 
 
 export const ProjectDetails = [
+    {
+        img: BlogApp,
+        title: 'A Blog App Template',
+        content: 'The blog application is built using Angular and Firebase, allowing users to create, update, and manage blog posts. It includes features like image uploads via Firebase Storage and real-time post updates using Firestore. The project focuses on providing a seamless content management experience.',
+        link: 'https://ionic-blog-app.vercel.app/tabs/index',
+        techs: ['AngularJs ', 'Ionic ', 'REST API ', 'Firestore', 'Firebase'],
+        gitLink: 'https://github.com/Tiana-droid/Ionic_blog_app'
+    },
     {
         img: SojiTade,
         title: 'SojiTade Foundation',
@@ -31,13 +40,6 @@ export const ProjectDetails = [
         techs: ['ReactJs ', 'Styled Components', 'Axios', 'Postman'],
         gitLink: '#'
     },
-    // {
-    //     img: Ecommerce,
-    //     title: 'Prime tasker',
-    //     content: 'Tasks website',
-    //link: '/',
-    //     techs: ['React ','TypeScript ', 'Styled Components ', 'Tailwind CSS ', 'NextJS']
-    // },
     {
         img: Constructionez,
         title: 'Constructionez',
@@ -46,15 +48,15 @@ export const ProjectDetails = [
         techs: ['ReactJS ', 'Styled Components ' ],
         gitLink: 'https://github.com/Tiana-droid/Constructionez'
     },
-    {
-        img: CorpersTrade,
-        title: 'Corpers Trade',
-        content: ' A website that offer users the convenience and flexibility to explore a myriad of apartments for rent. Seamlessly designed and intuitively navigable, the platform transforms the apartment hunting journey into a personalized quest.',
-        link: 'https://tiana-droid.github.io/',
-        techs: ['HTML ','CSS', 'JavaScript'],
-        gitLink: 'https://github.com/Tiana-droid/Tiana-droid.github.io'
+    // {
+    //     img: CorpersTrade,
+    //     title: 'Corpers Trade',
+    //     content: ' A website that offer users the convenience and flexibility to explore a myriad of apartments for rent. Seamlessly designed and intuitively navigable, the platform transforms the apartment hunting journey into a personalized quest.',
+    //     link: 'https://tiana-droid.github.io/',
+    //     techs: ['HTML ','CSS', 'JavaScript'],
+    //     gitLink: 'https://github.com/Tiana-droid/Tiana-droid.github.io'
 
-    },
+    // },
     {
         img: Ecommerce,
         title: 'Ecomerce-site',

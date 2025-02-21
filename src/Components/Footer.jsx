@@ -41,7 +41,7 @@ const Footer = () => {
             </motion.h1>
             <motion.p variants={textVariants} style={{ textAlign: "center" }}>
               Looking for new opportunities, experience, exposure <br />{" "}
-              Interewsted in participating in mind blowing apps and sites.
+              Interested in participating in mind blowing apps and sites.
             </motion.p>
             <motion.a
               href="mailto:adelusic@gmail.com"

@@ -12,6 +12,12 @@ const Links = [
   "Rest APIs",
   "Sass",
   "Redux",
+  "Firebase",
+  "Firestore",
+  "AngularJS",
+  "Cordova",
+  "Ionic",
+  "MySQL"
 ];
 
 const textVariants = {
@@ -45,7 +51,7 @@ const About = () => {
               <motion.p variants={textVariants}>
                 Hello! My name is Christianah and I enjoy creating things that
                 live on the internet. My interest in web development started
-                back in 2012 when I was introduced to it in JSS3 where we
+                back in 2012 when I was introduced to it in high school where we
                 created a sign up page for the school and this sparked an
                 interest and passion web development
               </motion.p>

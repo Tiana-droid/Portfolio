@@ -495,7 +495,7 @@ export const TabSection = styled.section`
     flex-direction: row;
   }
   @media (min-width: 861px) {
-    width: 70%;
+    width: 75%;
     flex-direction: row;
   }
 
@@ -537,6 +537,11 @@ export const TabSection = styled.section`
 
     @media (${BreakPoints.xs}) {
       border-left: none;
+      span {
+        display: block;
+        width: inherit;
+        text-align: center;
+      }
     }
 
     &:hover {

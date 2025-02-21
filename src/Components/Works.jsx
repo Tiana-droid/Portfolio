@@ -50,6 +50,21 @@ const imageVariants = {
 const TabPanels = [
   {
     tab: "tabA",
+    title: "A Blog App Template",
+    link: "https://ionic-blog-app.vercel.app/tabs/index",
+    role: "Frontend Developer",
+    duration: "July 2024",
+    tasks: [
+      "Ensured that the website design is responsive, providing a seamless experience across various devices and screen sizes",
+      "User Authentication: Implemented sign-up, login, and authentication using Firebase Auth.",
+      "Create & Edit Posts: I enabled users to create, update, and delete blog posts stored in Firestore.",
+      "Image Uploads: Integrated Firebase Storage so users can upload images, and the image URLs are saved in Firestore.",
+      "Post Listing & Details: Displayed blog posts in a list format and provide detailed views for individual posts.",
+      "Category Filtering: Organized posts by categories and enabled filtering functionality",
+    ],
+  },
+  {
+    tab: "tabB",
     title: "Klasshour",
     link: "https://www.klasshour.com",
     role: "Frontend Developer",
@@ -67,7 +82,7 @@ const TabPanels = [
     ],
   },
   {
-    tab: "tabB",
+    tab: "tabC",
     title: "Rackleblock",
     link: "https://www.rackleblock.com/",
     role: "Frontend Developer",
@@ -85,7 +100,7 @@ const TabPanels = [
     ],
   },
   {
-    tab: "tabC",
+    tab: "tabD",
     title: "SojiTade Foundation",
     link: "https://www.sojitadefoundation.com",
     role: "Website Developer",
@@ -100,7 +115,7 @@ const TabPanels = [
     ],
   },
   {
-    tab: "tabD",
+    tab: "tabE",
     title: "DummyJson",
     link: "https://dummyjson.netlify.app/",
     role: "Frontend Developer",
@@ -113,7 +128,7 @@ const TabPanels = [
     ],
   },
   {
-    tab: "tabE",
+    tab: "tabF",
     title: "Constructionez",
     link: "https://constructionez.netlify.app/",
     role: "Web Designer",
@@ -171,7 +186,7 @@ const Works = () => {
                   tabIndex={index}
                   aria-selected={activeTab === tabs.tab ? true : false}
                   style={{
-                    width: "170px",
+                    width: "150px",
                     height: "42px",
                     color: activeTab === tabs.tab ? "#64ffda" : "#b1b0b0",
                     borderLeft:
